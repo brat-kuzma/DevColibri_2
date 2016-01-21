@@ -1,4 +1,4 @@
-package clases;
+package clases.devcat;
 
 public class Cat {
 
@@ -12,6 +12,6 @@ public class Cat {
 
     @Override
     public String toString() {
-        return "clases.Cat: " + name + " : cat_model - " + cat_model +" - " +age;
+        return "clases.devcat.Cat: " + name + " : cat_model - " + cat_model +" - " +age;
     }
 }
