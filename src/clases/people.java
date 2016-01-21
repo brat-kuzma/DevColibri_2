@@ -2,12 +2,14 @@ package clases;
 
 public class people {
 
-    static String name;
-    static String surname;
-    static int age;
+     String name;
+     String surname;
+     int age;
+
+    Cat cat;
 
     @Override
     public String toString() {
-        return name;
+        return name + " " + " " + surname + " " + age + " " + cat;
     }
 }
