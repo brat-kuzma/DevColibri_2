@@ -1,31 +1,24 @@
 package clases;
 
+import clases.devcat.Cat;
+import clases.devpeople.people;
+
 public class Main {
 
-    static Cat cat = new Cat();
-    static people mean = new people();
+    static Cat cat;
+    static people mean;
 
 
     public static void main (String[] args){
 
-        cat.name="Garfild";
-        cat.cat_model="noname";
-        cat.age = 2;
-        System.out.println(cat.name);
-        System.out.println(cat.cat_model);
-        System.out.println(cat.age);
+        cat = new Cat(2, "Garfild", "no_name");
 
         System.out.println(cat);
 
-        mean.name = "Vasya";
-        mean.age = 12;
-        mean.surname = "Pupkin";
-
-        mean.cat= cat;
-
+        mean = new people("Vasya", "Pupkin", 2228, cat);
         System.out.println(mean);
 
         cat.mEWW();
-        mean.cat.mEWW();
+        mean.getCat().mEWW();
     }
 }
