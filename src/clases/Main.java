@@ -1,6 +1,7 @@
 package clases;
 
 import clases.devcat.Cat;
+import clases.devpeople.Sportsmean;
 import clases.devpeople.people;
 
 public class Main {
@@ -20,5 +21,10 @@ public class Main {
 
         cat.mEWW();
         mean.getCat().mEWW();
+
+
+        Sportsmean sportsmean = new Sportsmean("Box", "newbeee");
+
+        sportsmean.getRachini("real_raq");
     }
 }

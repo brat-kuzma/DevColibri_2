@@ -16,6 +16,9 @@ public class people {
 
     Cat cat;
 
+    public people() {
+    }
+
     public String getName() {
         return name;
     }
