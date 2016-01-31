@@ -26,5 +26,9 @@ public class Main {
         Sportsmean sportsmean = new Sportsmean("Box", "newbeee");
 
         sportsmean.getRachini("real_raq");
+
+        //------------------------------------------------------------------ 23 poly
+        mean.sayHello();
+        sportsmean.sayHello();
     }
 }

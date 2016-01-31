@@ -51,6 +51,11 @@ public class people {
         this.cat = cat;
     }
 
+    public void sayHello(){
+        System.out.println("Hello!");
+    }
+
+
     @Override
     public String toString() {
         return name + " " + " " + surname + " " + age + " " + cat;

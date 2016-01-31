@@ -7,6 +7,11 @@ public class Sportsmean extends people {
     private String sporttype;
     private String spotskill;
 
+    @Override //переопреляем метод - полиморфизм
+    public void sayHello() {
+        System.out.println("Hello bitch !!!");
+    }
+
     private String rachini;
 
     public String getRachini(String real_raq) {
@@ -24,6 +29,7 @@ public class Sportsmean extends people {
         this.sporttype = sporttype;
         this.spotskill = sportskill;
     }
+
 
 
 }
